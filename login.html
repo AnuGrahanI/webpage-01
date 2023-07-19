@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>linkedIn</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="/images/linkedfav.png"/>
+</head>
+
+<body style="background-color: white;">
+	<div class="containe">
+		<img src="linkedin-logo.jpg">
+		<div class=" center">
+			<div class="signIn">
+				<form id="signInform">
+					<h1>Sign in</h1>
+					<p>stay updated on your professional world</p>
+					<div class="alert-box-item">
+						<p class="alert-box-email">enter valid email & password</p>
+					</div>
+					<div class="formitem">
+						<input type="text" id="email" class="inputs" name="email" placeholder="Email or phone"/>
+					</div>
+					<div class="formitem">
+						<input type="password" id="pas" class="inputs" name="userpass" placeholder="Password"/>
+						<span id="showhide" class='showpas'>show</span>
+						<p><a href="#">forget password?</a></p>
+					</div>
+					<button type="button" onclick="onSignIn()" class="sum-btn">Sign In</button>
+
+					<div class="line">
+						<p>or</p>
+					</div>
+					<div class="now">
+						<span class="sign"><a href="signIn.html">New to Linkedin? join now</a></span>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="script/login.js"></script>
+</body>
+
+</html>

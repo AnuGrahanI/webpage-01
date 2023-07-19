@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>profile</title>
+	<link rel="stylesheet" href="css/profile.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="image" type="image/x-icon" href="/images/fav.png" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="container between">
+			<div class="flex-container">
+				<div class="flex-container flex-item-5 center">
+					<div class="mainlogo flex-item-1"><i class="fa fa-linkedin-square" aria-hidden="true"></i></div>
+					<div class="flex-item-11 search">
+						<input type="text" placeholder="Search" class="search-input" />
+						<span class="search-glass"><i class="fa fa-search" aria-hidden="true"></i></span>
+					</div>
+				</div>
+				<div class="flex-item-7">
+					<ul class="nav flex-container">
+						<li class="nav-list">
+							<a href="index.html" class="navlists">
+								<div class="navlogos">
+									<i class="fa fa-home" aria-hidden="true"><span class="Notifications"></span></i>
+								</div>
+								<span class="navlinks">Home</span>
+							</a>
+						</li>
+						<li class="nav-list"><a href="#" class="navlists">
+								<div class="navlogos ">
+									<i class="fa fa-users" aria-hidden="true"><span class="Notifications"></span></i>
+								</div>
+								<span class="navlinks">My Network</span>
+							</a>
+						</li>
+						<li class="nav-list"><a href="#" class="navlists">
+								<div class="navlogos">
+									<i class="fa fa-briefcase" aria-hidden="true"><span
+											class="Notifications">5</span></i>
+								</div>
+								<span class="navlinks">Jobs</span>
+							</a>
+						</li>
+						<li class="nav-list"><a href="#" class="navlists">
+								<div class="navlogos">
+									<i class="fa fa-commenting" aria-hidden="true"><span
+											class="Notifications"></span></i>
+								</div>
+								<span class="navlinks">Messaging</span>
+							</a>
+						</li>
+						<li class="nav-list"><a href="#" class="navlists">
+								<div class="navlogos">
+									<i class="fa fa-bell" aria-hidden="true"><span class="Notifications"></span></i>
+								</div>
+								<span class="navlinks">Notifications</span>
+							</a>
+						</li>
+						<li class="drop-down nav-list"><a href="#" class="navlists">
+								<div class="navlogos">
+									<i class="fa fa-user-circle" aria-hidden="true"></i>
+								</div>
+								<span class="navlinks">Me
+									<i class="fa fa-sort-desc" aria-hidden="true">
+									</i>
+								</span>
+							</a>
+							<div class="dropitem">
+								<div class="drop-prof flex-container center">
+									<div class="drop-img flex-item-3 drop-i">
+										<img src="images/dp.AVIF" / class="dpimg">
+									</div>
+									<div class="drop-text flex-item-9 drop-i">
+										<h4 class="yoursName">Vinoth.K</h4>
+										<p class="user-role">senior Front end Developer</p>
+									</div>
+								</div>
+								<div class="link-prof">
+									<a href="profile.html">view profile</a>
+								</div>
+								<div class="account">
+									<h3>Account</h3>
+									<a href="#try-prem" class="span">try Premiumfor free</a>
+									<a href="#seting">settings & privacy</a>
+									<a href="#help">Help</a>
+									<a href="#lang">language</a>
+								</div>
+								<div class="manage">
+									<h3>Manage</h3>
+									<a href="#">posts & activity</a>
+									<a href="#">job posting account</a>
+								</div>
+								<div class="signout">
+									<button type="submit" onclick="signout(event)" class="signout-btn"
+										id="signOutBtn">Sign Out</button>
+								</div>
+							</div>
+						</li>
+						<li class="rel nav-list">
+							<a class="vertical" href="#" class="navlists">
+								<div class="navlogos">
+									<i class="fa fa-th" aria-hidden="true"></i>
+								</div>
+								<span class="navlinks">Work<i class="fa fa-sort-desc" aria-hidden="true"></i></span>
+							</a>
+						</li>
+						<li class="center nav-list">
+							<a href="#" class="navlists">
+								<div class="prem ">
+									<p>Try Premium for free</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="flex-container">
+				<div class="flex-item-07">
+					<div class="user-profile">
+						<div class="users-profiles">
+							<div class="user_banner">
+								<button><i class="material-icons">camera_alt</i></button>
+							</div>
+							<div class="user_profile-dp">
+								<img src="images/anu.jpg" class="dpimg" />
+							</div>
+						</div>
+						<div class="users-profile-det">
+							<h3 class="yoursName">Anu Grahan I</h3>
+							<p class="user-role">FrontEnd Trainee</p>
+							<div class="asosiate-company">
+								<img src="images/fab.JPEG" />
+								<span><a href="#">Fabevy</a></span>
+							</div>
+							<span class="users-profile-edit"><a href="#" class="popup"><i
+										class="material-icons ">mode_edit</i></a></span>
+							<div class="popop_edit">
+								<div class="pop-editspage">
+									<div class="popop_edit-title">
+										<h2>Edit Intro</h2>
+										<a href="#" class="popup-edit-close"><i class="material-icons">close</i></a>
+									</div>
+									<div class="popop_edit-forms">
+										<form id="edityourprofile">
+											<div class="form-controls">
+												<h2>Basic Info</h2>
+												<div class="form-control">
+													<p>First Name*</p>
+													<input type="text" name="fname" class="inputs editprof"
+														id="editFname" />
+												</div>
+												<div class="form-control">
+													<p>Last Name*</p>
+													<input type="text" name="lname" class="inputs editprof"
+														id="editLname" />
+												</div>
+												<div class="form-control">
+													<p>HeadLine*</p>
+													<input type="text" name="headline" class="inputs editprof"
+														id="headline" />
+												</div>
+												<h2>Current position</h2>
+												<div class="form-control">
+													<p>Position*</p>
+													<input type="text" name="Position" class="inputs " id="Position" />
+												</div>
+												<h2>Location</h2>
+												<div class="form-control">
+													<p>Country / Region*</p>
+													<input type="text" name="Country" class="inputs editprof"
+														id="placeCoureg" />
+												</div>
+												<div class="form-control">
+													<p>city*</p>
+													<input type="text" name="placeity" class="inputs editprof"
+														id="placeity" />
+												</div>
+												<div class="form-control">
+													<p>state*</p>
+													<input type="text" name="placestate" class="inputs editprof"
+														id="placestate" />
+												</div>
+											</div>
+											<div class="popop_edit_submit">
+												<button class="pop-save" id="his">save</button>
+											</div>
+										</form>
+
+									</div>
+
+								</div>
+							</div>
+							<div class="user-address">
+								<p>
+									<span id="u-town">Chennai</span>
+									<span id="u-state">TamilNadu</span>
+									<span id="u-country">India</span>
+									<span class="u-info"><a href="#">contect info</a></span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="user-skils">
+						<div class="skil-title">
+							<h3>Skills</h3>
+							<div class="center">
+								<span class="take-quiz">take skill quiz</span>
+								<a href="#"><i class="material-icons">add</i></a><a href="#"><i
+										class="material-icons">mode_edit</i></a>
+							</div>
+						</div>
+						<div class="skill-item">
+							<div class="skill-items one">
+								<h3><a href="#">HTML5</a></h3>
+								<div class="skill-place">
+									<img src="images/fab.JPEG" />
+									<span class="place">Trainee At Fabevy</span>
+								</div>
+							</div>
+							<div class="skill-items one">
+								<h3><a href="#">Cascading Style Sheets (CSS)</a></h3>
+								<div class="skill-place">
+									<img src="images/fab.JPEG" />
+									<span class="place">Trainee At Fabevy</span>
+								</div>
+							</div>
+							<div class="skill-items one">
+								<h3><a href="#">Javascript</a></h3>
+								<div class="skill-place">
+									<img src="images/fab.JPEG" />
+
+									<span class="place">Trainee At Fabevy</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="experiance">
+						<div class="center">
+							<a href="#">
+								<i class="material-icons">add</i>
+							</a>
+							<a href="#">
+								<i class="material-icons popup">mode_edit</i>
+							</a>
+							<div class="popop_edit">
+								<div class="pop-editspage">
+									<div class="popop_edit-title">
+										<h2>Edit experience</h2>
+										<a href="#" class="popup-edit-close"><i class="material-icons ">close</i></a>
+									</div>
+									<div class="popop_edit-forms">
+										<form id="edityourexperience">
+											<div class="form-controls">
+												<div class="form-control">
+													<p>Title*</p>
+													<input type="text" name="roleNames" class="inputs" id="expTitle" />
+												</div>
+												<div class="form-control">
+													<p>Employment type*</p>
+													<select class="inputs" name="emptype">
+														<option >Please select</option>
+														<option value="Full-time">Full-time</option>
+														<option value="Part-time">Part-time</option>
+														<option value="Self-employed">Self-employed</option>
+														<option value="Freelance">Freelance</option>
+														<option value="Internship">Internship</option>
+														<option value="Trainee">Trainee</option>
+													</select>
+												</div>
+												<div class="form-control">
+													<p>Company Name*</p>
+													<input type="text" name="companynames" class="inputs"
+														id="company_name" />
+												</div>
+												<div class="form-control">
+													<p">location*</p>
+													<input type="text" name="location" class="inputs" id="com_location" />
+												</div>
+												<div class="form-control">
+													<p>location type*</p>
+													<select class="inputs" id="locationtypes">
+														<option value="Please select">Please select</option>
+														<option value="On-site">On-site</option>
+														<option value="Hybrid">Hybrid</option>
+														<option value="Remote">Remote</option>
+													</select>
+												</div>
+												<div class="form-control">
+													<p>city*</p>
+													<input type="checkbox" id="workingcheck" name="working" />
+													<label for="workingcheck">I am currently working in thisrole</label>
+													<p>state Date*</p>
+													<span class="form-control-span">
+														<select class="inputs">
+															<option value>Month</option>
+															<option value="1">January</option>
+															<option value="2">February</option>
+															<option value="3">March</option>
+															<option value="4">April</option>
+															<option value="5">May</option>
+															<option value="6">June</option>
+															<option value="7">July</option>
+															<option value="8">August</option>
+															<option value="9">September</option>
+															<option value="10">October</option>
+															<option value="11">November</option>
+															<option value="12">December</option>
+														</select>
+													</span>
+													<span class="form-control-span">
+														<select class="inputs">
+															<option value>year</option>
+															<option value="2023">2023</option>
+															<option value="2022">2022</option>
+															<option value="2021">2021</option>
+															<option value="2020">2020</option>
+															<option value="2019">2019</option>
+														</select>
+													</span>
+												</div>
+												<div class="form-control">
+													<p>Industry*</p>
+													<input type="text" name="Industry" class="inputs" id="Industry" />
+												</div>
+												<div class="form-control">
+													<p>Description*</p>
+													<textarea type="text" name="Industry" class="inputs"
+														id="textarea"></textarea>
+												</div>
+												<div class="form-control">
+													<p>profile-handler*</p>
+													<input type="text" name="profile_handler" class="inputs"
+														id="profile_handler" />
+													<p>Appears below your name at the top of the profile</p>
+												</div>
+												<div class="form-controlss form-control">
+													<h2>skills</h2>
+													<div action="" id="myFormId">
+
+
+														<button id="addskillbtn">
+															Add skill
+														</button>
+														<div id="skillitems">
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="popop_edit_submit spaces">
+												<button class="lefts">Delete experience</button>
+												<button  class="pop-save">save</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h3>Experience</h3>
+						<div class="flex-con">
+							<div class="exp-img">
+								<img src="images/fab.JPEG" />
+							</div>
+							<div class="exp-det exp-data" >
+								<h4 class="exprole">FrontEnd Trainee</h4>
+								<p><a href="#" class="expcomp">Fabevy</a><span class="expemptype">Full-Time</span></p>
+								<p class="date">Nov 2022-Present.6.mos</p>
+								<div class="exp-com-address">
+									<span class="u-town">Chennai</span>
+									<span class="u-state">TamilNadu</span>
+									<span class="u-country">India</span>
+									<span class="u-info"><a href="#">contect info</a></span>
+								</div>
+								<p class="exp-skils"><span>Skils:</span><span class="skillitem"></span> Node.js HTML5 Cascading Style Sheet (CSS)
+									JavaScript Angular WorldPress</p>
+							</div>
+						</div>
+					</div>
+					<div class="education">
+						<div class="center">
+							<a href="#">
+								<i class="material-icons">add</i>
+							</a>
+							<a href="#">
+								<i class="material-icons popup">mode_edit</i>
+							</a>
+							<div class="popop_edit">
+								<div class="pop-editspage">
+									<div class="popop_edit-title">
+										<h2>Edit Education</h2>
+										<a href="#" class="popup-edit-close"><i class="material-icons ">close</i></a>
+									</div>
+									<div class="popop_edit-forms">
+										<form id="edityourcollege">
+											<div class="form-controls">
+											  <div class="form-control">
+												<p>School*</p>
+												<input type="text" name="School" class="inputs" id="Schoolcol" />
+											  </div>
+											  <div class="form-control">
+												<p>Degree</p>
+												<input type="text" name="Degree" class="inputs" id="Degreecol" />
+											  </div>
+											  <div class="form-control">
+												<p>Field of study</p>
+												<input type="text" name="fos" class="inputs" id="Fieldcol" />
+											  </div>
+											  <div class="form-control">
+												<p>start Date*</p>
+												<span class="form-control-span">
+												  <select class="inputs" name="startmonth">
+													<option value>Month</option>
+													<option value="1">January</option>
+													<option value="2">February</option>
+													<option value="3">March</option>
+													<option value="4">April</option>
+													<option value="5">May</option>
+													<option value="6">June</option>
+													<option value="7">July</option>
+													<option value="8">August</option>
+													<option value="9">September</option>
+													<option value="10">October</option>
+													<option value="11">November</option>
+													<option value="12">December</option>
+												  </select>
+												</span>
+												<span class="form-control-span">
+												  <select class="inputs" name="startyear">
+													<option value>Year</option>
+													<option value="2023">2023</option>
+													<option value="2022">2022</option>
+													<option value="2021">2021</option>
+													<option value="2020">2020</option>
+													<option value="2019">2019</option>
+												  </select>
+												</span>
+											  </div>
+											  <div class="form-control">
+												<p>End Date*</p>
+												<span class="form-control-span">
+												  <select class="inputs" name="endmonth">
+													<option value>Month</option>
+													<option value="1">January</option>
+													<option value="2">February</option>
+													<option value="3">March</option>
+													<option value="4">April</option>
+													<option value="5">May</option>
+													<option value="6">June</option>
+													<option value="7">July</option>
+													<option value="8">August</option>
+													<option value="9">September</option>
+													<option value="10">October</option>
+													<option value="11">November</option>
+													<option value="12">December</option>
+												  </select>
+												</span>
+												<span class="form-control-span">
+												  <select class="inputs" name="'endyear">
+													<option value>Year</option>
+													<option value="2023">2023</option>
+													<option value="2022">2022</option>
+													<option value="2021">2021</option>
+													<option value="2020">2020</option>
+													<option value="2019">2019</option>
+												  </select>
+												</span>
+											  </div>
+											  <div class="form-control">
+												<p>Grade</p>
+												<input type="text" name="Grade" class="inputs" id="gradecol" />
+											  </div>
+											  <div class="form-control">
+												<p>Activities and societies</p>
+												<textarea type="text" name="Industry" class="inputs" id="disact"></textarea>
+											  </div>
+											  <div class="form-control">
+												<p>Description</p>
+												<textarea type="text" name="Industry" class="inputs" id="disedu"></textarea>
+											  </div>
+											</div>
+											<div class="popop_edit_submit spaces">
+											  <button class="lefts">Delete education</button>
+											  <button class="pop-save">Save</button>
+											</div>
+										</form>
+										  
+									</div>
+								</div>
+							</div>
+						</div>
+						<h3>Education</h3>
+						<div class="flex-con">
+							<div class="exp-img">
+								<img src="images/anna.png" />
+							</div>
+							<div class="exp-det">
+								<h4 class="user_col">Anna University</h4>
+								<p class="edu-dep">B.A Tamil</p>
+								<p class="acadmic date">2019-2021</p>
+							</div>
+						</div>
+					</div>
+					<div class="intrest">
+						<h3>Intrests</h3>
+						<div class="int-company">
+							<h3>Companys</h3>
+							<div class="coms">
+								<div class="company-name">
+									<div class="com-img">
+										<img src="images/link.JPEG" />
+									</div>
+									<div class="company-det">
+										<p class="com-page">LinkedIn news In INDIA</p>
+										<p><span class="folowcount">5,665,675</span> followers</p>
+										<span><a href="#" class="follow">follow</a></span>
+									</div>
+								</div>
+								<div class="company-name">
+									<div class="com-img">
+										<img src="images/fab.JPEG" />
+									</div>
+									<div class="company-det">
+										<p class="com-page">fabey</p>
+										<p><span class="folowcount">5,675</span> followers</p>
+										<span><a href="#" class="follow counts">following</a></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="flex-item-03">
+					<div class="edit-public">
+						<div class="edit-lang reletive">
+							<span class="not"><i class="material-icons">not_interested</i></span>
+							<a href="#">Edit public profile & URL</a>
+						</div>
+						<div class="reletivs">
+							<span class="nots"><i class="material-icons">not_interested</i></span>
+							<a href="#">Add profile in another language</a>
+						</div>
+					</div>
+					<div class="advertisement">
+						<div class="add-item">
+							<span class="add-code">Ad<i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+							<div class="addireq">
+								<p>ANU unlock your full potential with linked in Premium </p>
+								<div class="add-img">
+									<img src="images/dp.AVIF" /><img src="images/12.png" />
+								</div>
+								<p class="see">See who viewed your profile in the last 90 days</p>
+								<button class="try">Try for free</button>
+							</div>
+						</div>
+					</div>
+					<div class="people_knows">
+						<div class="people_title">
+							<h3>people you may know</h3>
+							<p>from your company</p>
+						</div>
+						<div class="flex-con">
+							<div class="people-img">
+								<img src="images/dpimg.png" />
+							</div>
+							<div class="people_det">
+								<h4>Karthi D</h4>
+								<p>trainee at frontend web Development</p>
+								<button class="conecting"><a href="#">conntect</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="blur">
+	</div>
+
+	<script src="script/object.js"></script>
+	<script src="script/userdata.js"></script>
+</body>
+
+</html>

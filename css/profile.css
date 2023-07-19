@@ -1,0 +1,675 @@
+.user-profile {
+	margin: 20px 0;
+	border: none !important;
+}
+.user-profile > div{
+	border: 1px solid #d7d7d78a;
+}
+
+.users-profiles {
+	position: relative;
+	border: none !important;
+}
+
+.user_banner {
+	background-color: #0000001a;
+	background-size: cover;
+	border-radius: 15px 15px 0 0;
+	height: 200px;
+	position: relative;
+}
+
+.user_banner button {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: white;
+	color: blue;
+	position: absolute;
+	right: 30px;
+	top: 20px;
+	padding: 3px 2px 2px 3px;
+}
+
+.user_banner button i {
+	font-size: 20px;
+}
+
+.user_banner button:hover {
+	color: black;
+}
+
+.user_profile-dp {
+	position: absolute;
+	left: 30px;
+	bottom: -50px;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.user_profile-dp img {
+	width: 210px;
+	height: auto;
+	border-radius: 50%;
+
+}
+
+.users-profile-det {
+	padding: 65px 30px 30px 30px;
+	position: relative;
+	background-color: white;
+	border-radius: 0 0 15px 15px;
+}
+
+.users-profile-det h3 {
+	font-size: 25px;
+	opacity: 0.8;
+	margin: 0 5px;
+}
+
+.users-profile-det p {
+	margin: 5px 5px;
+	font-size: 16px;
+
+}
+
+.asosiate-company {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 70px;
+	right: 230px;
+	width: 50px;
+}
+
+.asosiate-company img {
+	width: 50%;
+	height: auto;
+	border-radius: 50%;
+	margin-top: -3px;
+	margin-right: 10px;
+
+}
+
+.asosiate-company span a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #020202ad;
+}
+
+.asosiate-company span a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.users-profile-det .users-profile-edit {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	color: black;
+	top: 10px;
+	right: 10px;
+	border-radius: 50%;
+	margin: 0 20px;
+}
+
+.user-address span {
+
+	margin: 5px 10px 5px 0px;
+	color: gray;
+}
+
+.user-address p {
+	font-size: 14px;
+}
+
+.user-address a {
+	color: blue;
+}
+
+.user-skils {
+	margin: 20px 0;
+	border-radius: 10px;
+	background-color: white;
+	padding: 20px 10px;
+}
+
+.skil-title {
+	margin: 10px 5px;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.skil-title .take-quiz {
+	color: blue;
+	padding: 5px 10px;
+	border: 1px solid blue;
+	border-radius: 20px;
+}
+
+.skil-title a {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 2px 5px;
+}
+
+.skil-title a i {
+	padding: 3px;
+}
+
+.skill-item {
+	margin: 10px 0px;
+	padding: 0 10px;
+}
+
+.skill-items {
+	padding: 10px 15px;
+	border-bottom: 1px solid lightgray;
+}
+
+.skill-place {
+	width: auto;
+	display: flex;
+	align-items: center;
+	margin: 10px 0 10px -10px;
+}
+
+.skill-place img {
+	width: 3%;
+	height: auto;
+	margin: 0 10px;
+}
+
+.skill-place .place {
+	font-size: 14px;
+	color: gray;
+}
+
+.skill-items h3 a {
+	font-weight: 500;
+	color: black;
+	font-size: 16px;
+}
+
+.skill-items h3 a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.intrest {
+	margin: 10px 0;
+	border-radius: 15px;
+	background-color: white;
+	padding: 10px 30px;
+	position: relative;
+}
+
+.intrest h3 {
+	margin: 20px 0px;
+}
+
+.center a {
+	margin: 5px 10px;
+	border-radius: 50%;
+
+}
+
+.center a:hover {
+	background-color: lightgray;
+}
+
+
+.company-name {
+	display: flex;
+	align-items: start;
+	flex: 50%;
+}
+
+.company-det {
+	margin: 10px 0 0 0;
+}
+
+
+
+.com-img img {
+	width: 50px;
+
+}
+
+.int-company {
+	padding: 0 0 20px 0;
+}
+
+.coms {
+	display: flex;
+}
+
+.company-det p {
+	margin: 0px 0 10px 10px;
+}
+
+.com-page:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.company-det span a {
+	padding: 5px 20px;
+	border: 1px solid gray;
+	border-radius: 20px;
+
+}
+
+.company-det span {
+	margin-top: 5px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.company-det .folowcount {
+	display: inline-block;
+	margin: 0;
+}
+
+
+
+
+.experiance {
+	background-color: white;
+	padding: 10px 30px;
+	border-radius: 15px;
+	margin: 20px 0;
+	position: relative;
+}
+
+.experiance .center {
+	position: absolute;
+	right: 10px;
+}
+
+.experiance .center i {
+	margin: 5px;
+}
+
+.experiance h3 {
+	margin: 10px 5px;
+}
+
+.flex-con {
+	display: flex;
+	justify-content: start;
+	align-items: self-start;
+}
+
+.exp-img {
+	flex: 10%;
+}
+
+.exp-img img {
+	width: 50px;
+}
+
+.exp-det {
+	flex: 90%;
+	margin: 5px 0 0 0;
+}
+
+.exp-det h4 {
+	padding: 5px 0;
+}
+
+.exp-det p {
+	padding: 2px 0px;
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+.exp-com-address span {
+	padding: 2px 0px;
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+.exp-det .exp-skils {
+	font-size: 16px;
+	margin: 10px 0;
+}
+
+
+
+.education {
+	background-color: white;
+	padding: 10px 30px;
+	border-radius: 15px;
+	margin: 20px 0;
+	position: relative;
+}
+
+.education .center {
+	position: absolute;
+	right: 10px;
+}
+
+.education .center i {
+	margin: 5px;
+}
+
+.education h3 {
+	margin: 10px 5px;
+
+}
+
+.edit-public {
+	background-color: white;
+	padding: 10px 30px;
+	border-radius: 15px;
+	margin: 20px 0;
+	position: relative;
+}
+
+.edit-public a {
+	font-size: 14px;
+	font-weight: 600;
+	color: gray;
+	padding: 10px 0;
+	margin: 10px 5px;
+	display: inline-block;
+}
+
+.edit-lang {
+	border-bottom: 1px solid gray;
+}
+
+.relative {
+	position: relative;
+}
+
+.relativs {
+	position: relative;
+}
+
+.reletivs .nots {
+	position: absolute;
+	right: 10px;
+	top: 80px;
+}
+
+.reletive .not {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+
+.people_knows {
+	background-color: white;
+	padding: 10px 30px;
+	border-radius: 15px;
+	margin: 20px 0;
+	position: relative;
+}
+
+.people_title {
+	margin: 5px 0px;
+}
+
+.people_title h3 {
+	font-size: 16px;
+	color: gray;
+	margin: 5px;
+}
+
+.people_title p {
+	font-size: 14px;
+	color: gray;
+	margin: 5px;
+}
+
+.people-img {
+	flex: 20%;
+
+}
+
+.people-img img {
+	border-radius: 50%;
+}
+
+.people_det {
+	flex: 80%;
+	margin: 10px 10px 20px 10px;
+	position: relative;
+}
+
+.people_det .conecting::after {
+	content: "";
+	background-color: #b3a2a278;
+	position: absolute;
+	height: 1px;
+	bottom: -15px;
+    width: 280px;
+    height: 1px;
+    left: -70px;
+}
+
+.people_det h4 {
+	font-size: 16px;
+}
+
+.people_det p {
+	font-size: 14px;
+	color: gray;
+	margin: 5px 0;
+}
+
+.people_det button {
+	padding: 5px 10px;
+	border-radius: 20px;
+	border: 1px solid gray;
+	background-color: white;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#show {
+	display: block;
+}
+
+
+.popop_edit {
+	display: none;
+}
+
+#overlay {
+	/* display: block; */
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(8px);
+	background-color: rgba(0, 0, 0, .75);
+	z-index: 1000;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	align-items: flex-end;
+}
+
+.pop-editspage {
+	width: 60%;
+	margin: 0 auto;
+	border-radius: 10px;
+	position: fixed;
+	top: 30px;
+	right: 0;
+	left: 0;
+	bottom: 30px;
+	z-index: 1003;
+	background-color: white;
+}
+
+.popop_edit h2 {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.popop_edit-forms h2 {
+	font-size: 18px;
+
+}
+
+.popop_edit-forms .form-control {
+	padding: 20px 0;
+}
+
+.popop_edit-title a {
+	border-radius: 50%;
+	padding: 3px 4px;
+}
+
+.popop_edit-title a:hover {
+	background-color: lightgray;
+
+
+}
+
+.popop_edit-title {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	border-bottom: solid 1px #8080803b;
+	background-color: white;
+	border-radius: 15px 15px 0 0;
+}
+
+.form-controls {
+	height: 450px;
+	overflow: auto;
+	padding: 0 20px;
+	background-color: white;
+}
+
+.form-controls h2 {
+	padding: 20px 0;
+}
+
+.form-controls p {
+	font-size: 14px;
+	color: black;
+	opacity: 0.7;
+	padding: 5px 0;
+}
+
+
+.popop_edit-forms .inputs {
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.popop_edit_submit {
+	border-top: 1px solid #8080803b;
+	padding: 20px 20px;
+	text-align: right;
+	background-color: white;
+	border-radius: 0 0 15px 15px;
+}
+
+.form-control-span {
+	width: 49%;
+	display: inline-block;
+	margin: 2px;
+}
+
+.spaces {
+	display: flex;
+	justify-content: space-between;
+}
+
+.spaces .lefts {
+	border: none;
+	padding: 5px 10px;
+	background-color: lightgray;
+}
+
+.spaces button {
+	display: inline-block;
+}
+
+.form-control #textarea {
+	height: 80px;
+}
+
+.form-control #disact {
+	height: 80px;
+}
+
+.form-control #disedu {
+	height: 80px;
+}
+
+.popop_edit_submit .pop-save {
+	background-color: blue;
+	border-radius: 20px;
+	border: none;
+	padding: 5px 20px;
+	font-size: 16px;
+	color: white;
+}
+
+/* skill add item */
+.anus {
+	width: 100%;
+}
+
+.skillsclose {
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 20px;
+	font-weight: 600;
+	background-color: hsla(120, 98%, 20%, 0.822);
+	margin: 10px 15px;
+	color: #fff;
+	line-height: 1;
+	word-spacing: 0.5px;
+	
+}
+#addskillbtn{
+	padding: 10px 15px;
+	border: solid blue 1px;
+	border-radius: 20px;
+	background-color: white;
+}
+.addinputs {
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+}
+
+#skillitems {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+.form-controlss{
+	padding: 0 30px;
+	margin-bottom: 20px;
+}
+.form-controlss h2{
+	color: #000000;
+}
