@@ -1,4 +1,9 @@
 let getUrl = window.location.href;
+window.onload = function() {
+  alert(`mail : anu@gmail.com
+  password : anu123
+  `);
+};
 
 if (getUrl.includes("index.html")) {
   let local = localStorage.getItem("islogin");
